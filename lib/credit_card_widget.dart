@@ -13,7 +13,7 @@ import 'glassmorphism_config.dart';
 const Map<CardType, String> CardTypeIconAsset = <CardType, String>{
   CardType.visa: 'icons/visa.png',
   CardType.americanExpress: 'icons/amex.png',
-  CardType.masterCard: 'icons/mastercard.png',
+  CardType.mastercard: 'icons/mastercard.png',
   CardType.unionpay: 'icons/unionpay.png',
   CardType.discover: 'icons/discover.png',
   CardType.elo: 'icons/elo.png',
