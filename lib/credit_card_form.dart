@@ -15,15 +15,15 @@ class CreditCardForm extends StatefulWidget {
     this.textColor = Colors.black,
     this.cursorColor,
     this.cardHolderDecoration = const InputDecoration(
-      labelText: 'Card holder',
+      labelText: 'Nombre de la tarjeta',
     ),
     this.cardNumberDecoration = const InputDecoration(
       labelText: 'Card number',
       hintText: 'XXXX XXXX XXXX XXXX',
     ),
     this.expiryDateDecoration = const InputDecoration(
-      labelText: 'Expired Date',
-      hintText: 'MM/YY',
+      labelText: 'Fecha de \n vencimiento',
+      hintText: 'MM/AA',
     ),
     this.cvvCodeDecoration = const InputDecoration(
       labelText: 'CVV',
